@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/anastasiiachumak17/ToDoList-Redux.git/static/css/main.a8ed6a7d.css",
+    "main.js": "/anastasiiachumak17/ToDoList-Redux.git/static/js/main.c2e78f62.js",
+    "static/media/background.webp": "/anastasiiachumak17/ToDoList-Redux.git/static/media/background.b765e46aafda7e7855a7.webp",
+    "index.html": "/anastasiiachumak17/ToDoList-Redux.git/index.html",
+    "main.a8ed6a7d.css.map": "/anastasiiachumak17/ToDoList-Redux.git/static/css/main.a8ed6a7d.css.map",
+    "main.c2e78f62.js.map": "/anastasiiachumak17/ToDoList-Redux.git/static/js/main.c2e78f62.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a8ed6a7d.css",
+    "static/js/main.c2e78f62.js"
+  ]
+}
