@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    background-color: #f8f9fa;
+    font-style: oblique;
+}
+
+.container, .ToDoList, .inp-todo, .btn-todo, .spn-todo, .spn-todo-complete, .spn-todo-active {
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    border: 2px solid #ced4da;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.ToDoList {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.inp-todo, .btn-todo, .spn-todo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 70%;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    outline: none;
+
+}
+
+button {
+    padding: 10px 20px;
+    background-color: blueviolet;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+
+button:hover {
+    background-color: darkviolet;
+}
+
+span {
+    cursor: pointer;
+}
+.spn-todo-complete:active{
+    border: 2px solid green;
+    border-radius: 2px;
+}
+.spn-todo-active:active{
+    border: 2px solid red;
+    border-radius: 2px;
+}
